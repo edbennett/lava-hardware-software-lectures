@@ -49,6 +49,15 @@ $heading3Size: 36px;
 // Change text colors against dark slide backgrounds
 @include dark-bg-text-color(#fff);
 
+.vcentre {
+    vertical-align: middle;
+}
+
+.margin50 {
+    padding: 50px;
+}
+
+
 
 // Theme template ------------------------------
 @import "../template/theme";

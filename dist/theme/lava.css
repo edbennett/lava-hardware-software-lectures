@@ -23,6 +23,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #fff;
 }
 
+.vcentre {
+  vertical-align: middle;
+}
+
+.margin50 {
+  padding: 50px;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
