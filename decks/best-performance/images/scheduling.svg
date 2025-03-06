@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="178.86734mm"
+   height="122.66743mm"
+   viewBox="0 0 178.86734 122.66743"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="scheduling.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="1.2994667"
+     inkscape:cx="422.86579"
+     inkscape:cy="351.29797"
+     inkscape:window-width="2184"
+     inkscape:window-height="1286"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="34.988249,286.65714"
+       orientation="0,1"
+       id="guide12"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="38.725819,249.05714"
+       orientation="0,1"
+       id="guide13"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="48.000534,246.25714"
+       orientation="0,1"
+       id="guide14"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="14.550006,269.25714"
+       orientation="0,1"
+       id="guide15"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="26.910226,266.45714"
+       orientation="0,1"
+       id="guide16"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="39.265691,228.85714"
+       orientation="0,1"
+       id="guide17"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="24.765657,226.05714"
+       orientation="0,1"
+       id="guide18"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="39.119852,208.65714"
+       orientation="0,1"
+       id="guide19"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="174.10897,228.85715"
+       orientation="1,0"
+       id="guide54"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="177.93926,213.15542"
+       orientation="1,0"
+       id="guide55"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient57"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#aaccff;stop-opacity:1;"
+         offset="0"
+         id="stop57" />
+      <stop
+         style="stop-color:#aaccff;stop-opacity:0;"
+         offset="1"
+         id="stop58" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient55"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ddafe9;stop-opacity:1;"
+         offset="0"
+         id="stop55" />
+      <stop
+         style="stop-color:#ddafe9;stop-opacity:0;"
+         offset="1"
+         id="stop56" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient53"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#de8787;stop-opacity:1;"
+         offset="0"
+         id="stop53" />
+      <stop
+         style="stop-color:#de8787;stop-opacity:0;"
+         offset="1"
+         id="stop54" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient53"
+       id="linearGradient54"
+       x1="180.45833"
+       y1="74.055069"
+       x2="184.20273"
+       y2="74.055069"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient55"
+       id="linearGradient56"
+       x1="180.45833"
+       y1="30.039003"
+       x2="184.20273"
+       y2="30.039003"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient57"
+       id="linearGradient58"
+       x1="180.45833"
+       y1="45.155071"
+       x2="184.20273"
+       y2="45.155071"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.2634693,-5.8571376)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="M 37.255025,12.604095 H 183.46394"
+       id="path1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="184.38687"
+       y="10.105288"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="184.38687"
+         y="10.105288">time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="28.507435"
+       y="26.929962"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="28.507435"
+         y="26.929962">Node 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="28.507435"
+       y="47.176151"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="28.507435"
+         y="47.176151">Node 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="28.507435"
+       y="67.42234"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="28.507435"
+         y="67.42234">Node 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="28.507435"
+       y="87.668526"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="28.507435"
+         y="87.668526">Node 4</tspan></text>
+    <rect
+       style="fill:#de8787;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect6"
+       width="46.788857"
+       height="37.599998"
+       x="36.683571"
+       y="16.200001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="38.997803"
+       y="21.871717"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="38.997803"
+         y="21.871717">Tanaka Tarou</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="38.997803"
+         y="27.16338"
+         id="tspan7">HMC: <tspan
+   style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
+   id="tspan33">β</tspan> = 2.1</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="38.997803"
+         y="32.45504"
+         id="tspan8">Trajectories 2000–2399</tspan></text>
+    <rect
+       style="fill:#cdde87;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect8"
+       width="21.871712"
+       height="17.4"
+       x="36.683571"
+       y="56.600002" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="38.997803"
+       y="62.292862"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="38.997803"
+         y="62.292862">Jane Doe</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="38.997803"
+         y="67.584526"
+         id="tspan11">Test job</tspan></text>
+    <rect
+       style="fill:#aaccff;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect19"
+       width="38.343918"
+       height="17.399994"
+       x="48.192825"
+       y="76.800003" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="49.904499"
+       y="81.627563"
+       id="text20"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="49.904499"
+         y="81.627563"
+         id="tspan20">Erika Mustermann</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="49.904499"
+         y="86.919228"
+         id="tspan21">Baryon spectrum,</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="49.904499"
+         y="92.210892"
+         id="tspan22"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
+   id="tspan34">β</tspan> = 2.6, 1000–1499</tspan></text>
+    <rect
+       style="fill:#ffccaa;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect22"
+       width="63.365891"
+       height="17.399998"
+       x="59.613617"
+       y="56.600002" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="61.013439"
+       y="60.893105"
+       id="text25"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="61.013439"
+         y="60.893105"
+         id="tspan25">María Victoria Villareal</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="61.013439"
+         y="66.184769"
+         id="tspan27">Next-gen aeroplane</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="61.013439"
+         y="71.476425"
+         id="tspan28">CFD simulation, design 1</tspan></text>
+    <rect
+       style="fill:#afe9af;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect35"
+       width="48.070183"
+       height="17.399998"
+       x="84.429733"
+       y="16.200003" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="85.44059"
+       y="20.607405"
+       id="text38"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="85.44059"
+         y="20.607405">Cik Kiah</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="85.44059"
+         y="25.899067"
+         id="tspan36">Mouse genome sequence</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="85.44059"
+         y="31.190729"
+         id="tspan38">Sample 500–799</tspan></text>
+    <rect
+       style="fill:#de8787;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect38"
+       width="46.788857"
+       height="37.599998"
+       x="124.03783"
+       y="36.455074" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="126.35207"
+       y="42.126793"
+       id="text42"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="126.35207"
+         y="42.126793">Tanaka Tarou</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="126.35207"
+         y="47.418457"
+         id="tspan41">HMC: <tspan
+   style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
+   id="tspan40">β</tspan> = 2.1</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="126.35207"
+         y="52.710117"
+         id="tspan42">Trajectories 2400–2799</tspan></text>
+    <rect
+       style="fill:#ffccaa;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect42"
+       width="63.365891"
+       height="17.399998"
+       x="87.595078"
+       y="76.800003" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="88.994896"
+       y="81.093102"
+       id="text45"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="88.994896"
+         y="81.093102"
+         id="tspan43">María Victoria Villareal</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="88.994896"
+         y="86.384766"
+         id="tspan44">Next-gen aeroplane</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="88.994896"
+         y="91.676422"
+         id="tspan45">CFD simulation, design 3a</tspan></text>
+    <rect
+       style="fill:#cdde87;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect45"
+       width="21.871712"
+       height="17.4"
+       x="152.01929"
+       y="76.89238" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="153.03014"
+       y="81.627563"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="153.03014"
+         y="81.627563">Jane Doe</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="153.03014"
+         y="86.919228"
+         id="tspan47">Meson sp.</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="153.03014"
+         y="92.210892"
+         id="tspan49"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
+   id="tspan48">β</tspan> = 2.7</tspan></text>
+    <rect
+       style="fill:url(#linearGradient56);fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect49"
+       width="48.070183"
+       height="17.399998"
+       x="133.66417"
+       y="16.200003" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="134.67502"
+       y="20.607405"
+       id="text52"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="134.67502"
+         y="20.607405">Lok Wing Ching</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="134.67502"
+         y="25.899067"
+         id="tspan52">Agent-based virus model</tspan></text>
+    <rect
+       style="fill:url(#linearGradient54);fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect53"
+       width="9.2534208"
+       height="37.599998"
+       x="174.94931"
+       y="56.692383" />
+    <rect
+       style="fill:url(#linearGradient58);fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect56"
+       width="12.317721"
+       height="17.399994"
+       x="171.88501"
+       y="36.455074" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="28.507435"
+       y="120.85682"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';stroke-width:0.264583"
+         x="28.507435"
+         y="120.85682">Pending</tspan></text>
+    <rect
+       style="fill:#93ac9d;stroke:none;stroke-width:0.499999;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       id="rect18"
+       width="123.06547"
+       height="17.399994"
+       x="33.12022"
+       y="111.12457" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="34.131077"
+       y="115.85976"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="34.131077"
+         y="115.85976">You</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="34.131077"
+         y="121.15142"
+         id="tspan23">Meson spectroscopy</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="34.131077"
+         y="126.44308"
+         id="tspan26">Trajectories 1000–1999</tspan></text>
+  </g>
+</svg>
