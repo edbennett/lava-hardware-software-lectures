@@ -6,13 +6,15 @@ a high-speed switch,
 six CPU nodes,
 six GPU nodes,
 and a storage array,
-with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="600px" -->
+with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="700px" -->
 
 Script:
 We've already seen that an HPC system comprises some number of compute nodes.
 Let's take a look inside one.
 
 -
+
+<!-- .element data-transition="slide-in fade-out" -->
 
 ![Diagram showing a rectangle labeled "Node",
 with two squares marked "CPU" inside.
@@ -28,6 +30,8 @@ Different CPUs on the same node have an interconnect connecting them,
 so data can transfer between them.
 
 -
+
+<!-- .element data-transition="fade-in slide-out" -->
 
 ![Previous diagram,
 but with four green RAM sticks attached to each CPU by thick lines](./images/node-ram.svg) <!-- .element height="600px" -->
@@ -101,6 +105,8 @@ over ignoring this level of structure.
 
 -
 
+<!-- .element data-transition="slide-in fade-out" -->
+
 ![Previous diagram of RAM sticks within a node,
 but now with each block labeled "32–768GiB RAM"](./images/node-ram.svg) <!-- .element height="600px" -->
 
@@ -123,11 +129,14 @@ so we do need to take care to not create unnecessary bottlenecks here.
 
 -
 
+<!-- .element data-transition="fade-in slide-out" -->
+
 ![Previous diagram of a node,
 but now with the addition of four GPUs.
 Each GPU is connected to one of the two CPUs,
 with each CPU connecting to two GPUs via separate links.](./images/node-gpus.svg) <!-- .element height="600px" -->
 
+Script:
 A node may also have one or more GPUs in.
 Some machines will have all nodes with GPUs,
 some none,
@@ -141,13 +150,11 @@ but they have been increasingly used to speed up other computations as well.
 
 CPU:
 
-\[
-\begin{align}
-y_1 &\leftarrow 1 + c_1 \sin(x_1) - \cot(x_2) \\
-y_2 &\leftarrow 3 - c_7 \cos(x_1) + \tan(x_3) \\
+$$\begin{aligned}
+y_1 &\leftarrow 1 + c_1 \sin(x_1) - \cot(x_2) \\\\
+y_2 &\leftarrow 3 - c_7 \cos(x_1) + \tan(x_3) \\\\
 &\vdots
-\end{align}
-\]
+\end{aligned}$$
 
 </div>
 
@@ -155,9 +162,11 @@ y_2 &\leftarrow 3 - c_7 \cos(x_1) + \tan(x_3) \\
 
 GPU:
 
-\[
-\y_i = c_i + d_i x_i ^n\;,\quad i=(1,\ldots,L^4)
-\]
+$$\begin{aligned}
+y_i &= c_i + d_i x_i ^n, \\\\
+&i=(1,\ldots,L^4)
+\end{aligned}
+$$
 
 </div>
 
@@ -182,6 +191,8 @@ compare the performance with using a CPU before deciding whether to use a GPU no
 
 -
 
+<!-- .element data-transition="slide-in fade-out" -->
+
 ![Previous diagram of a node with GPUs,
 but with the link between GPU and CPU highlighted in red
 and labeled "slow".](./images/node-host-device-bottleneck.svg) <!-- .element height="600px" -->
@@ -195,6 +206,8 @@ This has a significant impact on not only how software is developed,
 but how it is run.
 
 -
+
+<!-- .element data-transition="fade-in fade-out" -->
 
 ![Previous diagram of a node with GPUs,
 but with a route from one GPU via both CPUs to another GPU in blue and labeled "slow",
@@ -210,6 +223,8 @@ GPUs can also be connected together via a direct GPU-GPU connection to help them
 For NVIDIA cards this is called NVLink.
 
 -
+
+<!-- .element data-transition="fade-in slide-out" -->
 
 ![Previous diagram of a node with GPUs,
 but now with four boxes labeled "network",
@@ -241,10 +256,11 @@ let’s move out now and look at how nodes connect together.
 
 -
 
-![Infiniband Trade Association](./images/infiniband-ta.svg) <!-- .element width="400px" -->
-![Cornelis Networks](./images/cornelis.svg) <!-- .element width="400px" -->
-![Ethernet](./images/ethernet.svg) <!-- .element width="400px" -->
+![Infiniband Trade Association](./images/infiniband-ta.svg) <!-- .element height="250px" style="margin: 40px" -->
+![Cornelis Networks](./images/cornelis.svg) <!-- .element height="250px" style="margin: 40px" -->
+![Ethernet](./images/ethernet.svg) <!-- .element heidth="250px" style="margin: 40px" -->
 
+Script:
 The vast majority of clusters use Infiniband networks provided by NVIDIA Networking, 
 formerly known as Mellanox.
 Alternatives include the Omni-Path Interconnect,
@@ -256,6 +272,8 @@ slower connections between lower-performance machines.
 
 -
 
+<!-- .element data-transition="slide-in fade-out" -->
+
 ![Nodes networked to a switch,
 marked as being twenty metres away from one of the nodes](./images/network-singleswitch.svg) <!-- .element width="1200px" -->
 
@@ -266,6 +284,8 @@ but this would lead to very long cables,
 and the speed of light would introduce a noticeable amount of latency.
 
 -
+
+<!-- .element data-transition="fade-in fade-out" -->
 
 ![Nodes networked to edge switches,
 which in turn are all networked to one core switch](./images/network-twolevel.svg) <!-- .element width="1200px" -->
@@ -280,6 +300,8 @@ in really big clusters,
 there is another layer of switches too!
 
 -
+
+<!-- .element data-transition="fade-in slide-out" -->
 
 ![The same networking diagram,
 but with the two lines going into an edge switch from below
@@ -385,7 +407,7 @@ a high-speed switch,
 six CPU nodes,
 six GPU nodes,
 and a storage array,
-with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="600px" -->
+with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="700px" -->
 
 Script:
 The network fabric is also used to connect to high-speed network storage.
@@ -395,6 +417,8 @@ but in this case,
 each serves either data or metadata.
 
 -
+
+<!-- .element data-transition="slide-in fade-out" -->
 
 ![Diagram showing one metadata server full of filenames,
 and three object servers full of numbers,
@@ -410,6 +434,8 @@ sometimes machines will impose a quota on the _number_ of files you have,
 not just their size.
 
 -
+
+<!-- .element data-transition="fade-in slide-out" -->
 
 ![Same diagram as previous slide,
 but with a filename highlighted showing bytes on two servers,
@@ -445,19 +471,19 @@ as the specifics will depend on what parallel file system they use.
 </th>
 </tr>
 <tr>
-<td class="fragment" data-fragment-index="1">
+<td style="vertical-align: top" class="fragment" data-fragment-index="1">
 
 - Tape
 - LTO
 
 </td>
-<td class="fragment" data-fragment-index="2">
+<td style="vertical-align: top" class="fragment" data-fragment-index="2">
 
 - NFS
 - Ceph
 
 </td>
-<td class="fragment" data-fragment-index="3">
+<td style="vertical-align: top" class="fragment" data-fragment-index="3">
 
 - BeeGFS
 - GPFS/Storage Scale
@@ -465,14 +491,14 @@ as the specifics will depend on what parallel file system they use.
 - "Scratch"
 
 </td>
-<td class="fragment" data-fragment-index="4">
+<td style="vertical-align: top" class="fragment" data-fragment-index="4">
 
 - SSD
 - `tmp`
 - "Scratch"
 
 </td>
-<td class="fragment" data-fragment-index="5">
+<td style="vertical-align: top" class="fragment" data-fragment-index="5">
 
 - RAM disk
 - `/dev/shm`
@@ -536,7 +562,7 @@ a high-speed switch,
 six CPU nodes,
 six GPU nodes,
 and a storage array,
-with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="600px" -->
+with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="700px" -->
 
 Script:
 In this video,

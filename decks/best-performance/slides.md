@@ -8,11 +8,11 @@ how to submit jobs that will take best advantage of the given machine that we're
 
 -
 
-![OpenMP](./images/openmp.svg) <!-- .element width="400px" -->
-![MPI](./images/mpi.svg) <!-- .element width="400px" -->
+![OpenMP](./images/openmp.svg) <!-- .element width="400px" style="margin: 50px;" -->
+![MPI](./images/mpi.svg) <!-- .element width="400px" style="margin: 50px;" -->
 
-![CPU](./images/cpu.svg) <!-- .element width="400px" -->
-![GPU](./images/gpu.svg) <!-- .element width="400px" -->
+![CPU](./images/cpu.svg) <!-- .element width="300px" style="vertical-align: middle; margin: 50px;" -->
+![GPU](./images/gpu.svg) <!-- .element width="400px" style="vertical-align: middle; margin: 50px;" -->
 
 Script:
 The first step is to know whether the code we’re using has OpenMP, MPI, or both,
@@ -20,7 +20,7 @@ and whether it is GPU-enabled or CPU-only.
 
 -
 
-![Schematic diagram of a cluster](./images/cluster-structure.svg) <!-- .element height="600px" -->
+![Schematic diagram of a cluster](./images/cluster-structure.svg) <!-- .element height="700px" -->
 
 Script:
 We also need to know some details of our cluster,
@@ -60,31 +60,45 @@ with 6 nodes per switch.
 
 ![MPI](./images/mpi.svg) <!-- .element width="150px" -->
 
+<div style="float: left; width: 30%;">
+
 ![Diagram of a 3D lattice of points,
 split into four blocks,
 indicated by different colours](./images/lattice-partition.svg) <!-- .element width="400px" class="fragment" -->
 
-<span style="fragment">
+</div>
+
+<div style="float: right; width: 69%;">
+
+<div class="fragment">
 
 $128=2^7$ cores
 
-</span>
+</div>
 
-<span style="fragment">
+<div class="fragment">
 
-\[\begin{align}
-54\times30\times30\times30 &= (27\times15\times15\times15)\times(2\times2\times2\times2)\\
-&=(27\times15\times6\times6)\times(2\times2\times5\times5)\]
+$$\begin{aligned}
+& 54\times30\times30\times30 \\\\
+=& (27\times15\times15\times15)\times(2\times2\times2\times2)\\\\
+=&(27\times15\times6\times6)\times(2\times2\times5\times5)
+\end{aligned}
+$$
 
-</span>
+</div>
 
-<span style="fragment">
+<div class="fragment">
 
-\[\begin{align}
-56\times32\times32\times32 &= (7\times4\times16\times32)\times(8\times8\times2\times1)\\
-&=(56\times16\times4\times4)\times(1\times2\times8\times8)\]
+$$
+\begin{aligned}
+&56\times32\times32\times32 \\\\
+=&(7\times4\times16\times32)\times(8\times8\times2\times1)\\\\
+=&(56\times16\times4\times4)\times(1\times2\times8\times8)
+\end{aligned}$$
 
-</span>
+</div>
+
+</div>
 
 Script:
 Let’s start by thinking about a pure MPI code,
@@ -144,9 +158,11 @@ and compare the performance of the two.
 
 -
 
-<div style="float: left; width: 49%;">
+$$
+54 \times 30 \times 30 \times 30 \not\equiv 56 \times 32 \times 32 \times 32
+$$
 
-\[54\times30\times30\times30\nequiv 56\times32\times32\times32\]
+<div style="float: left; width: 49%;">
 
 ![Schematic diagram of a node with
 the links between CPUs and RAM highlighted with the text "bottleneck"](./images/ram-bottleneck.svg) <!-- .element height="400px" class="fragment" -->
@@ -154,7 +170,7 @@ the links between CPUs and RAM highlighted with the text "bottleneck"](./images/
 </div>
 
 
-<div style="float: right; width: 49%;" class="fragment">
+<div style="float: right; width: 49%; margin-top: 100px;" class="fragment">
 
 ~~~ bash
 #!/bin/bash
@@ -196,13 +212,15 @@ to verify that you're getting the best performance you can.
 
 -
 
-\[E_{N\textrm{ nodes}} = \frac{t_{\textrm{1 node}}}{N_{\mathrm{nodes}} \cdot t_{N\textrm{ nodes}}}\]
+$$E_{N\textrm{ nodes}} = \frac{t_{\textrm{1 node}}}{N_{\mathrm{nodes}} \cdot t_{N\textrm{ nodes}}}$$
 
-<span style="fragment">
+<div class="fragment">
 
-\[t_{\mathrm{2 nodes}} = \frac{1}{2} t_{\mathrm{1 node}}
+$$t_{\mathrm{2 nodes}} = \frac{1}{2} t_{\mathrm{1 node}}
 \Rightarrow 
-E_{\textrm{2 nodes}} = \frac{t_{\mathrm{1 node}}}{2\cdot \frac{1}{2} t_{\mathrm{1 node}}} = 1 \]
+E_{\textrm{2 nodes}} = \frac{t_{\mathrm{1 node}}}{2\cdot \frac{1}{2} t_{\mathrm{1 node}}} = 1$$
+
+</div>
 
 Script:
 How do we compare the performance to make sure that using multiple nodes is worthwhile?
@@ -245,8 +263,9 @@ and have tried to get more performance by throwing more resources at the problem
 
 -
 
-![MPI](./images/mpi.svg) <!-- .element width="150px" style="margin: 25px;" -->
-![OpenMP](./images/openmp.svg) <!-- .element width="150px" style="margin: 25px;" -->
+![MPI](./images/mpi.svg) <!-- .element width="150px" style="margin: 25px; vertical-align: middle;" -->
++
+![OpenMP](./images/openmp.svg) <!-- .element width="150px" style="margin: 25px; vertical-align: middle;" -->
 
 <span class="fragment">
 
@@ -280,6 +299,10 @@ So in our example 128-core CPU node,
 we want to have 8 MPI ranks,
 [click]
 each having 16 OpenMP threads.
+[click]
+To specify this to Slurm,
+we now want to use the `--cpus-per-task` option
+in addition to the `--ntasks-per-node` option.`
 As before,
 let's start from one node.
 
@@ -291,7 +314,7 @@ tailing off at low and high numbers of ranks.
 A green tick marks the middle value with the best performance.](./images/openmp-tuning.svg) <!-- .element height="400px" style="margin: 50px;" -->
 ![Example plot of $1/t$ against node count,
 showing a straight line through the origin and the one-node result,
-and points gradually falling below the line as node count increases.](./images/strong-scaling.svg) <!-- .element height="400px" style="margin: 50px;" -->
+and points gradually falling below the line as node count increases.](./images/strong-scaling.svg) <!-- .element class="fragment" height="400px" style="margin: 50px;" -->
 
 Script:
 In this case,
@@ -302,7 +325,8 @@ and with 16 tasks
 (and 8 CPUs per task).
 Once that is done,
 we can pick the fastest option,
-and test the strong scaling to multiple nodes,
+[click]
+and then test the strong scaling to multiple nodes,
 similarly to the pure MPI case.
 
 -
@@ -320,35 +344,41 @@ First of all,
 we'll need to switch to the GPU partition,
 and tell Slurm that we want to use 4 GPUs per node,
 since that's what we know these nodes have.
+Your cluster might have a slightly different way of specifying the GPUs to allocate,
+and may have a different number of GPUs per node,
+so do check with your cluster's documentation
+so that you know you're doing the right thing.
 
 -
 
 ![Diagram of a node with one MPI rank connected to four GPUs](./images/rank-controls-multiple-gpus.svg) <!-- .element width="500px" style="margin: 50px;" -->
 ![Diagram of a node with four MPI ranks,
-each connected to one GPU](./images/rank-controls-one-gpu.svg) <!-- .element width="500px" style="margin: 50px;" -->
+each connected to one GPU](./images/rank-controls-one-gpu.svg) <!-- .element class="fragment" width="500px" style="margin: 50px;" -->
 
 Script:
-Then we'll need to consult the documentation for both the software and for the cluster,
+Then we'll also need to consult the documentation
+for both the software and for the cluster,
 to see how things are configured for running on multiple GPUs.
 Code can be written to use multiple GPUs from a single,
 usually multithreaded,
 process,
+[click]
 or to use one GPU per process with MPI communication between them.
 It also needs to know which CPU to run on to get fastest access to each GPU,
 and similarly which network interface to use.
 
 -
 
-<div style="float: left; width: 49%;">
+<div style="float: left; width: 37%;">
 
-[![Grid logo](./images/grid.svg) <!-- .element width="300px" -->](https://github.com/paboyle/Grid)
-
-</div>
-
-<div style="float: right; width: 49%">
+[![Grid logo](./images/grid.svg) <!-- .element style="margin-left: 40px;" height="250px" -->](https://github.com/paboyle/Grid)
 
 ![Diagram of a node with four MPI ranks,
 each connected to one GPU](./images/rank-controls-one-gpu.svg) <!-- .element width="500px" style="margin: 50px;" -->
+
+</div>
+
+<div style="float: right; width: 62%; margin-top: 100px;">
 
 ```bash
 #!/bin/bash
@@ -362,7 +392,8 @@ export CUDA_VISIBLE_DEVICES=$OMPI_COMM_WORLD_LOCAL_RANK
 export UCX_NET_DEVICES=mlx5_${lrank}:1
 BINDING="--interleave=$numa1,$numa2"
 
-echo "`hostname` - $lrank device=$CUDA_VISIBLE_DEVICES binding=$BINDING"
+echo "`hostname` - $lrank 
+   device=$CUDA_VISIBLE_DEVICES, binding=$BINDING"
 
 numactl ${BINDING}  $*
 ```
@@ -428,18 +459,18 @@ showed no performance improvement from going to multiple GPUs.
 The second attempt got good performance on one node,
 but failed to see an improvement from using multiple nodes.
 The finalised wrapper script is able to get good strong scaling on multiple nodes,
-although falling off at larger node counts.
+although inevitably falling off at larger node counts.
 
 -
 
-<div style="float: left; width: 49%;">
+<div style="float: right; width: 40%;">
 
 ![Diagram showing four jobs running in one node,
 each using one GPU.](./images/one-gpu-per-subjob.svg) <!-- .element width="500px" -->
 
 </div>
 
-<div style="float: right; width: 49%;">
+<div style="float: left; width: 59%;">
 
 ```bash
 #!/bin/bash
@@ -467,6 +498,8 @@ done
 wait
 ```
 
+<!-- .element style="height: 600px;" -->
+
 Script:
 Modern high-end GPUs are powerful enough that they need a lot of work to be kept busy;
 this means that for smaller local lattices they will spend more time idling,
@@ -490,14 +523,14 @@ so you may see slightly better performance from using a more specific wrapper sc
 with time on the horizontal axis,
 and nodes on the vertical axis.
 A gap is present where a two-node job is awaiting resources,
-and a long job is shown as pending.](./images/scheduling.svg) <!-- .element width="1200px" class="current-visible"-->
+and a long job is shown as pending.](./images/scheduling.svg) <!-- .element height="700px" class="fragment current-visible"-->
 
 ![Diagram showing compute jobs arranged into a 2D timeline,
 with time on the horizontal axis,
 and nodes on the vertical axis.
 The gap from the previous figure is shown filled
 with a portion of the previously-pending job,
-while two shorter jobs are still pending.](./images/scheduling-2.svg) <!-- .element width="1200px" class="current-visible"-->
+while two shorter jobs are still pending.](./images/scheduling-2.svg) <!-- .element height="700px" class="fragment current-visible"-->
 
 </div>
 

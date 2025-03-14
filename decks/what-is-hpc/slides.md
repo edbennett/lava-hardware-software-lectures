@@ -6,14 +6,14 @@
 
 <div style="float: right; width: 69%;">
 
-- &shy;<!-- .element: class="fragment" --> $128\times64^3=33,554,432$ sites
-- &shy;<!-- .element: class="fragment" --> $\times 4=134,217,728$ links
-- &shy;<!-- .element: class="fragment" --> $\times 3\times3=$1,207,959,552 complex numbers
-- &shy;<!-- .element: class="fragment" --> $\times 2=2,415,919,104$ real numbers
-- &shy;<!-- .element: class="fragment" --> $\times 100\times 100=24,159,191,040,000$ matrix-vector multiplications
-- &shy;<!-- .element: class="fragment" --> $\times 100=2,415,919,104,000,000$ floating-point operations per update
-- &shy;<!-- .element: class="fragment" --> $/(8\times 4\times10^9 \,\mathrm{s}^{-1}\times 12)=6,291$ s
-- &shy;<!-- .element: class="fragment" --> $\times 1000\times4=2415919104000000/(8*4e9*12)*1000*4$ s
+- &shy;<!-- .element: class="fragment" --> $128\times64^3=$ 33,554,432 sites
+- &shy;<!-- .element: class="fragment" --> $\times 4=$ 134,217,728 links
+- &shy;<!-- .element: class="fragment" --> $\times 3\times3=$ 1,207,959,552 complex numbers
+- &shy;<!-- .element: class="fragment" --> $\times 2=$ 2,415,919,104 real numbers
+- &shy;<!-- .element: class="fragment" --> $\times 100\times 100=$ 24,159,191,040,000 matrix-vector multiplications
+- &shy;<!-- .element: class="fragment" --> $\times 100=$ 2,415,919,104,000,000 floating-point operations per update
+- &shy;<!-- .element: class="fragment" --> $/(8\times 4\times10^9 \mathrm{s}^{-1}\times 12)=$ 6,291 s
+- &shy;<!-- .element: class="fragment" --> $\times 1000\times4=$ 25,165,824 s
 - &shy;<!-- .element: class="fragment" --> $\equiv$ 291 days
 
 </div>
@@ -60,7 +60,7 @@ so this multiplies up into a very long time to keep a computer busy.
 
 ![A laptop](./images/laptop.svg) <!-- .element width="150px" -->
 
-![A laptop with a fast-forward icon](./images/laptop-go-fast.svg) <!-- .element width="150px" class="fragment" --> ![Three laptops with different beta values assigned to each](./images/three-laptops-different.svg) <!-- .element width="450px" class="fragment" --> ![Three laptops connected together, with the same beta value assigned to each](./images/three-laptops-collaborate.svg) <!-- .element width="450px" class="fragment" --> 
+![A laptop with a fast-forward icon](./images/laptop-go-fast.svg) <!-- .element width="150px" class="fragment" style="margin: 40px" --> ![Three laptops with different beta values assigned to each](./images/three-laptops-different.svg) <!-- .element width="450px" class="fragment" style="margin: 40px" --> ![Three laptops connected together, with the same beta value assigned to each](./images/three-laptops-collaborate.svg) <!-- .element width="450px" class="fragment" style="margin: 40px" --> 
 
 Script:
 We generally need to get results on timescales shorter than decades,
@@ -213,7 +213,7 @@ a high-speed switch,
 six CPU nodes,
 six GPU nodes,
 and a storage array,
-with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="600px" -->
+with most components connected to the high-speed switch.](./images/cluster-structure.svg) <!-- .element height="700px" -->
 
 Script:
 A typical cluster will have most of the components shown here.
@@ -266,7 +266,7 @@ Let's compare and contrast them now.
 
 -
 
-![Photograph of a datacenter](./images/datacentre.jpg) <!-- .element width="700px" -->
+![Photograph of a datacenter](./images/datacentre.jpg) <!-- .element height="700px" -->
 
 Script:
 Both HPC and cloud computing resources are made up of

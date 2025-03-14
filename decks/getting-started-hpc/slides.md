@@ -21,7 +21,7 @@ and either a password or a key to log in to the machine.
 
 -
 
-<div style="float: left;">
+<div style="float: left; margin: 40px;">
 
 Scheduler:
 
@@ -33,7 +33,7 @@ Scheduler:
 - ...
 
 </div>
-<div style="float: left;">
+<div style="float: left; margin: 40px;">
 
 Vendor:
 
@@ -45,7 +45,7 @@ Vendor:
 - ...
 
 </div>
-<div style="float: left;">
+<div style="float: left; margin: 40px;">
 
 Filesystem:
 
@@ -68,34 +68,36 @@ don't be afraid to reach out to your local support team for help.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">ssh username@my.hpc.system</span>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">ssh username@my.hpc.system</span>
 <br>
-<span class="code fragment">
-The authenticity of host my.hpc.system (198.51.100.23)' can't be established.<br>
+<span class="fragment">
+The authenticity of host 'my.hpc.system (198.51.100.23)' can't be established.<br>
 ED25519 key fingerprint is SHA256:gVgjfMMsHH10tt0nT5CKtYCqSaVRIVgK7NpA09QW4NB.<br>
 This key is not known by any other names.<br>
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 </span>
-<span class="code fragment animate__fadeIn" data-split="letters">yes<br></span>
-<span class="code fragment">
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">yes<br></span>
+<span class="fragment">
 Warning: Permanently added 'aluminiumdreams' (ED25519) to the list of known hosts.<br>
-Password:
+Password:<br>
 </span>
-<span class="code fragment">
+<span class="fragment">
 Your password has expired and must be changed.<br>
 Current password:<br>
 </span>
-<span class="code fragment">
+<span class="fragment">
 Password:<br>
 </span>
-<span class="code fragment">
+<span class="fragment">
 Repeat password:<br>
 </span>
-<span class="code fragment">
+<span class="fragment">
 All authentication tokens were updated successfully<br>
 $
 </span>
+</div>
 
 
 Script:
@@ -143,20 +145,22 @@ nothing shows on the screen while you're typing your passwords.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">pwd<br></span>
-<span class="code fragment">/lustre/home/username<br>$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">ls -d /data/${USER} /scratch/${USER}<br>
-</span>
-<span class="code fragment">/data/username /scratch/username<br>$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">$ lfs quota -u $(id -u) . -h<br></span>
-<span class="code fragment">Disk quotas for usr 20683 (uid 20683):<br>
-     Filesystem    used   quota   limit   grace   files   quota   limit   grace<br>
-              .  12.24T  24.50T     25T       -  990332 1950000 2000000       -<br>$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">lfs quota -g $(id -g) . -h</span>
-<span class="code fragment">Disk quotas for grp 20288 (gid 20288):<br>
-     Filesystem    used   quota   limit   grace   files   quota   limit   grace<br>
-              .  61.29T  72.50T     73T       - 2177482 4500000 5000000       -<br>$ </span>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">pwd</span><br>
+<span class="fragment">/lustre/home/username<br>$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">ls -d /data/${USER} /scratch/${USER}
+</span><br>
+<span class="fragment">/data/username /scratch/username<br>$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">lfs quota -u $(id -u) . -h</span><br>
+<span class="fragment">Disk quotas for usr 20683 (uid 20683):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filesystem&nbsp;&nbsp;&nbsp;&nbsp;used&nbsp;&nbsp;&nbsp;quota&nbsp;&nbsp;&nbsp;limit&nbsp;&nbsp;&nbsp;grace&nbsp;&nbsp;&nbsp;files&nbsp;&nbsp;&nbsp;quota&nbsp;&nbsp;&nbsp;limit&nbsp;&nbsp;&nbsp;grace<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;12.24T&nbsp;&nbsp;24.50T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8288;—&#8288;&nbsp;&nbsp;990332&nbsp;1950000&nbsp;2000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">lfs quota -g $(id -g) . -h</span>
+<span class="fragment">Disk quotas for grp 20288 (gid 20288):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filesystem&nbsp;&nbsp;&nbsp;&nbsp;used&nbsp;&nbsp;&nbsp;quota&nbsp;&nbsp;&nbsp;limit&nbsp;&nbsp;&nbsp;grace&nbsp;&nbsp;&nbsp;files&nbsp;&nbsp;&nbsp;quota&nbsp;&nbsp;&nbsp;limit&nbsp;&nbsp;&nbsp;grace<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;61.29T&nbsp;&nbsp;72.50T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;73T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8288;—&#8288;&nbsp;2177482&nbsp;4500000&nbsp;5000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>$&nbsp;</span>
+</div>
 
 Script:
 Once were logged in,
@@ -187,9 +191,10 @@ checking the quota on the system you're using.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">git clone https://github.com/-an--author-/AwesomeLat<br></span>
-<span class="code fragment">
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">git clone https://github.com/-an--author-/AwesomeLat</span><br>
+<span class="fragment">
 Cloning into 'AwesomeLat'...<br>
 remote: Enumerating objects: 732, done.<br>
 remote: Counting objects: 100% (167/167), done.<br>
@@ -198,6 +203,7 @@ remote: Total 732 (delta 93), reused 105 (delta 48), pack-reused 565 (from 1)<br
 Receiving objects: 100% (732/732), 41.17 MiB | 8.49 MiB/s, done.<br>
 Resolving deltas: 100% (320/320), done.<br>
 $ </span>
+</div>
 
 Script:
 Once we know where to put things,
@@ -219,26 +225,28 @@ so you can clone your code from a central repository.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">module available<br></span>
-<span class="code fragment">
--------------------- /lustre/apps/cuda-12.3-modulefiles -------------------<br>
-cuda/12.3  openmpi/4.1.5-cuda12.3  ucx/1.15.0-cuda12.3<br>
+<div class="code">
+$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">module available</span><br>
+<span class="fragment">
+&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&nbsp;/lustre/apps/cuda&#8288;—&#8288;12.3&#8288;—&#8288;modulefiles&nbsp;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;<br>
+cuda/12.3&nbsp;&nbsp;openmpi/4.1.5&#8288;—&#8288;cuda12.3&nbsp;&nbsp;ucx/1.15.0&#8288;—&#8288;cuda12.3<br>
 <br>
-------------------- /lustre/apps/cuda-11.4.1-modulefiles ------------------<br>
-cuda/11.4.1  openmpi/4.1.1-cuda11.4.1  ucx/1.12.0-cuda11.4.1<br>
+&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&nbsp;/lustre/apps/cuda&#8288;—&#8288;11.4.1&#8288;—&#8288;modulefiles&nbsp;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;<br>
+cuda/11.4.1&nbsp;&nbsp;openmpi/4.1.1&#8288;—&#8288;cuda11.4.1&nbsp;&nbsp;ucx/1.12.0&#8288;—&#8288;cuda11.4.1<br>
 <br>
-------------------------- /lustre/apps/modulefiles ------------------------<br>
-cuda/11.0.3         module-git   null           ucx/1.10.1<br>
-dot                 module-info  openmpi/4.0.4  use.own<br>
+&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&nbsp;/lustre/apps/modulefiles&nbsp;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;&#8288;—&#8288;<br>
+cuda/11.0.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;module-git&nbsp;&nbsp;&nbsp;null&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ucx/1.10.1<br>
+dot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;module-info&nbsp;&nbsp;openmpi/4.0.4&nbsp;&nbsp;use.own<br>
+gcc/9.3.0(default)&nbsp;&nbsp;modules&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;openmpi/4.1.1&nbsp;&nbsp;xpmem/2.6.5<br>
+$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">module available 2&gt;&amp;1 | grep -i gcc</span><br>
+<span class="fragment">
 gcc/9.3.0(default)  modules      openmpi/4.1.1  xpmem/2.6.5<br>
 $ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">module available 2&gt;&amp;1 | grep -i gcc<br></span>
-<span class="code fragment">
-gcc/9.3.0(default)  modules      openmpi/4.1.1  xpmem/2.6.5<br>
-$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">module load gcc/9.3.0 openmpi/4.1.1<br></span>
-<span class="code fragment">$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">module load gcc/9.3.0 openmpi/4.1.1</span><br>
+<span class="fragment">$ </span>
+</div>
 
 Script:
 You'll most likely need to compile your code before you can run it.
@@ -274,12 +282,15 @@ and can give substantial performance boosts.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">make install<br></span>
-<span class="code fragment">Permission denied<br>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">make install</span><br>
+<span class="fragment">Permission denied<br>
 $ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">../configure --prefix=${HOME}/prefix-awesomelat
-<br>...</span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">../configure --prefix=${HOME}/prefix-awesomelat</span>
+<br>
+<span class="fragment">...</span>
+</div>
 
 Script:
 From here,
@@ -296,17 +307,18 @@ rather than in the protected common operating system location.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">sinfo<br></span>
-<span class="code fragment">
-PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
-cpu            up 2-00:00:00     13  alloc cnode[1-10],[14-16]<br>
-cpu            up 2-00:00:00      3   idle cnode[11-13]<br>
-gpu            up 2-00:00:00     15  alloc gnode[1-8,10,13-18]<br>
-gpu            up 2-00:00:00      2   idle gnode[11-12]<br>
-gpu            up 2-00:00:00      1   down gnode9<br>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">sinfo</span><br>
+<span class="fragment">
+PARTITION&nbsp;&nbsp;&nbsp;AVAIL&nbsp;&nbsp;TIMELIMIT&nbsp;&nbsp;NODES&nbsp;&nbsp;STATE&nbsp;NODELIST
+cpu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up&nbsp;2&#8288;—&#8288;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;alloc&nbsp;cnode[1&#8288;—&#8288;10],[14&#8288;—&#8288;16]<br>
+cpu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up&nbsp;2&#8288;—&#8288;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;idle&nbsp;cnode[11&#8288;—&#8288;13]<br>
+gpu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up&nbsp;2&#8288;—&#8288;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15&nbsp;&nbsp;alloc&nbsp;gnode[1&#8288;—&#8288;8,10,13&#8288;—&#8288;18]<br>
+gpu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up&nbsp;2&#8288;—&#8288;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;idle&nbsp;gnode[11&#8288;—&#8288;12]<br>
+gpu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up&nbsp;2&#8288;—&#8288;00:00:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;down&nbsp;gnode9<br>
 $ </span>
-
+</div>
 
 Script:
 Now we’re ready to start interacting with the job scheduler.
@@ -328,19 +340,20 @@ and each has a couple of nodes currently available.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">squeue<br></span>
-<span class="code fragment">
-             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)<br>
-             10148       cpu benchmar anothe01  R      33:27      1 tu-c0r0n66<br>
-             10145       gpu spectrum jjones03 PD       0:00     16 (Resources)<br>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">squeue</span><br>
+<span class="fragment">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOBID&nbsp;PARTITION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USER&nbsp;ST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIME&nbsp;&nbsp;NODES&nbsp;NODELIST(REASON)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10148&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cpu&nbsp;benchmar&nbsp;anothe01&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33:27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;node004<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10145&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gpu&nbsp;spectrum&nbsp;jjones03&nbsp;PD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;(Resources)<br>
 ...<br>
 $ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">squeue --me<br></span>
-<span class="code fragment">
-             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)<br>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">squeue --me</span><br>
+<span class="fragment">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOBID&nbsp;PARTITION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USER&nbsp;ST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIME&nbsp;&nbsp;NODES&nbsp;NODELIST(REASON)<br>
 $ </span>
-
+</div>
 
 Script:
 To see what jobs are running and waiting to be run,
@@ -356,18 +369,18 @@ you'll see just the header in the output of this command.
 -
 
 <div class="code">
-<p class="fragment">#!/bin/bash</p>
-<p class="fragment">#SBATCH --time 2:00:00</p>
-<p class="fragment">#SBATCH --account project007</p>
-<p class="fragment">#SBATCH --nodes 2</p>
-<p class="fragment">#SBATCH --ntasks-per-node 8</p>
-<p class="fragment">#SBATCH --cpus-per-task 16</p>
-<p class="fragment">#SBATCH --output hmc.%J.out
-<p>&nbsp;</p>
-<p class="fragment">module purge</p>
-<p class="fragment">module load gcc/9.3.0 openmpi/4.1.1</p>
-<p class="fragment">${HOME}/src/awesomelat/build/hmc -i input_file</p>
-
+<span class="fragment">#!/bin/bash</span><br>
+<span class="fragment">#SBATCH --time 2:00:00</span><br>
+<span class="fragment">#SBATCH --account project007</span><br>
+<span class="fragment">#SBATCH --nodes 2</span><br>
+<span class="fragment">#SBATCH --ntasks-per-node 8</span><br>
+<span class="fragment">#SBATCH --cpus-per-task 16</span><br>
+<span class="fragment">#SBATCH --output hmc.%J.out
+<p>&nbsp;</span><br>
+<span class="fragment">module purge</span><br>
+<span class="fragment">module load gcc/9.3.0 openmpi/4.1.1</span><br>
+<span class="fragment">${HOME}/src/awesomelat/build/hmc -i input_file</span>
+</div>
 
 Script:
 Speaking of submitting a job,
@@ -415,19 +428,21 @@ as the scheduler is able to provide this information to the MPI library directly
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">sbatch submit.sh<br></span>
-<span class="code fragment">Submitted job 10184<br>$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">squeue --me<br></span>
-<span class="code fragment">
-             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)<br>
-             10184       cpu submit.s username PD       0:00      2 (Resources)<br>
+<div class="code">
+$
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">sbatch submit.sh</span><br>
+<span class="fragment">Submitted batch job 10184<br>$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">squeue --me</span><br>
+<span class="fragment">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOBID&nbsp;PARTITION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USER&nbsp;ST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIME&nbsp;&nbsp;NODES&nbsp;NODELIST(REASON)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cpu&nbsp;submit.s&nbsp;username&nbsp;PD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;(Resources)<br>
 $ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">squeue --me --start<br></span>
-<span class="code fragment">
-             JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)<br>
-             10184       cpu submit.s username PD 2025-03-04T02:58:00      2 cnode[3,8]           (Priority)<br>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">squeue --me --start</span><br>
+<span class="fragment">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOBID&nbsp;PARTITION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USER&nbsp;ST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;START_TIME&nbsp;&nbsp;NODES&nbsp;SCHEDNODES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NODELIST(REASON)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cpu&nbsp;submit.s&nbsp;username&nbsp;PD&nbsp;2025&#8288;—&#8288;03&#8288;—&#8288;04T02:58:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;cnode[3,8]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Priority)<br>
 $ </span>
+</div>
 
 Script:
 We're now ready to submit this script to the scheduler,
@@ -446,13 +461,15 @@ The scheduler might give you a projected start time based on jobs currently in t
 for example,
 by using the `--start` option to `squeue` in Slurm.
 Note that this is an estimate,
-and can change if other users submit jobs.
+and can change if other users submit jobs,
+and in busy queues some jobs may not get an estimate straight away.
 
 -
 
-<span class="code">$ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">tail hmc.10184.out<br></span>
-<span class="code fragment">
+<div class="code">
+$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">tail hmc.10184.out</span><br>
+<span class="fragment">
 [INVERTER][10]g5QMR_mshift: cgiter (mshift,tot) = 30 ; 30<br>
 [INVERTER][10]g5QMR_mshift: cgiter (mshift,tot) = 21 ; 21<br>
 [INVERTER][10]g5QMR_mshift: cgiter (mshift,tot) = 30 ; 30<br>
@@ -464,8 +481,9 @@ and can change if other users submit jobs.
 [INVERTER][10]g5QMR_mshift: cgiter (mshift,tot) = 28 ; 28<br>
 [INVERTER][10]g5QMR_mshift: cgiter (mshift,tot) = 21 ; 21<br>
 $ </span>
-<span class="code fragment animate__fadeIn" data-split="letters">scancel 10184<br></span>
-<span class="code fragment">Job 10184 has been cancelled.<br>$ </span>
+<span class="fragment animate__fadeIn animate__faster" data-split="letters" data-delay="40" data-container-delay="0">scancel 10184</span><br>
+<span class="fragment">$ </span>
+</div>
 
 Script:
 Once your job starts running,
@@ -480,10 +498,14 @@ we don't need to wait for the job to complete or time out.
 
 ![An alarm clock](./images/alarm-clock.svg) <!-- .element class="fragment" height="100px" -->
 
-<span class="fragment code">$ sbatch --dependency=singleton --array=1-10 submit.sh</span>
+<div class="code">
+<span class="fragment">$ sbatch --dependency=singleton --array=1-10 submit.sh</span>
+</div>
 
-<span class="fragment code">$ tail -n 1 submit.sh<br>
+<div class="code" style="margin-top: 50px;">
+<span class="fragment">$ tail -n 1 submit.sh<br>
 srun ${HOME}/src/awesomelat/build/hmc && sbatch submit.sh</span>
+</div>
 
 Script:
 Most HPC systems have a relatively short time limit

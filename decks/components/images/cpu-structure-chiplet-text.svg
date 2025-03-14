@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200.52788mm"
+   height="161.63318mm"
+   viewBox="0 0 200.52788 161.63318"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="cpu-structure-chiplet-text.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1918525"
+     inkscape:cx="381.33912"
+     inkscape:cy="304.98739"
+     inkscape:window-width="1392"
+     inkscape:window-height="1212"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.4394159,-50.453033)">
+    <rect
+       style="fill:#eef4d7;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2"
+       width="200.52788"
+       height="161.63318"
+       x="8.4394159"
+       y="50.453033" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect1"
+       width="132.82907"
+       height="132.82907"
+       x="42.288818"
+       y="70.535728" />
+    <rect
+       style="fill:#e3d7f4;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect44"
+       width="128.4259"
+       height="30.779762"
+       x="44.526031"
+       y="171.37054" />
+    <rect
+       style="fill:#e3d7f4;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect43"
+       width="128.4259"
+       height="30.779762"
+       x="44.526031"
+       y="138.16377" />
+    <rect
+       style="fill:#e3d7f4;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect42"
+       width="128.4259"
+       height="30.779762"
+       x="44.526031"
+       y="104.957" />
+    <rect
+       style="fill:#e3d7f4;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect41"
+       width="128.4259"
+       height="30.779762"
+       x="44.526031"
+       y="71.750229" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3474px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.834209"
+       x="56.161358"
+       y="67.834366"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.834209"
+         x="56.161358"
+         y="67.834366">CPU</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect3"
+       width="25.868647"
+       height="25.868647"
+       x="47.334118"
+       y="74.205788" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="81.692398"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="81.692398">Core 0</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect4"
+       width="25.868647"
+       height="25.868647"
+       x="79.440598"
+       y="74.205788" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="81.692398"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="81.692398">Core 1</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect5"
+       width="25.868647"
+       height="25.868647"
+       x="111.54707"
+       y="74.205788" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="81.692398"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="81.692398">Core 2</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect6"
+       width="25.868647"
+       height="25.868647"
+       x="143.65355"
+       y="74.205788" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="81.692398"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="81.692398">Core 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="94.878799"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="94.878799">idle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="94.878799"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="94.878799">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="94.878799"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="94.878799">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="94.878799"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="94.878799">hmc</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect11"
+       width="25.868647"
+       height="25.868647"
+       x="47.334118"
+       y="107.41256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="114.89919"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="114.89919">Core 4</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect12"
+       width="25.868647"
+       height="25.868647"
+       x="79.440598"
+       y="107.41256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="114.89919"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="114.89919">Core 5</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect13"
+       width="25.868647"
+       height="25.868647"
+       x="111.54707"
+       y="107.41256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="114.89919"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="114.89919">Core 6</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect14"
+       width="25.868647"
+       height="25.868647"
+       x="143.65355"
+       y="107.41256" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="114.89919"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="114.89919">Core 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="128.0856"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="128.0856">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="128.0856"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="128.0856">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="128.0856"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="128.0856">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="128.0856"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="128.0856">hmc</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect16"
+       width="25.868647"
+       height="25.868647"
+       x="47.334118"
+       y="140.61932" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="148.10605"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="148.10605">Core 8</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect17"
+       width="25.868647"
+       height="25.868647"
+       x="79.440598"
+       y="140.61932" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="148.10605"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="148.10605">Core 9</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect18"
+       width="25.868647"
+       height="25.868647"
+       x="111.54707"
+       y="140.61932" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="148.10605"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="148.10605">Core 10</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect19"
+       width="25.868647"
+       height="25.868647"
+       x="143.65355"
+       y="140.61932" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="148.10605"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="148.10605">Core 11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="161.29245"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="161.29245">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="161.29245"
+       id="text35"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="161.29245">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="161.29245"
+       id="text36"><tspan
+         sodipodi:role="line"
+         id="tspan36"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="161.29245">hmc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="161.29245"
+       id="text37"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="161.29245">idle</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect21"
+       width="25.868647"
+       height="25.868647"
+       x="47.334118"
+       y="173.8261" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="181.31282"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="181.31282">Core 12</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect22"
+       width="25.868647"
+       height="25.868647"
+       x="79.440598"
+       y="173.8261" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="181.31282"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="181.31282">Core 13</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect23"
+       width="25.868647"
+       height="25.868647"
+       x="111.54707"
+       y="173.8261" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="181.31282"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="181.31282">Core 14</tspan></text>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="rect24"
+       width="25.868647"
+       height="25.868647"
+       x="143.65355"
+       y="173.8261" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="181.31282"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="181.31282">Core 15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="60.35957"
+       y="194.49922"
+       id="text38"><tspan
+         sodipodi:role="line"
+         id="tspan38"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="60.35957"
+         y="194.49922">python</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="92.466049"
+       y="194.49922"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Typewriter Text';-inkscape-font-specification:'CMU Typewriter Text';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="92.466049"
+         y="194.49922">python</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="124.57252"
+       y="194.49922"
+       id="text40"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="124.57252"
+         y="194.49922">idle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.29076px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+       x="156.679"
+       y="194.49922"
+       id="text41"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Italic';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.455671"
+         x="156.679"
+         y="194.49922">idle</tspan></text>
+  </g>
+</svg>
